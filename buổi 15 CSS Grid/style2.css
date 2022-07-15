@@ -1,0 +1,85 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.grid-container{
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    background-color: blueviolet;
+    margin-top: 100px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 30% 30%;
+    grid-template-rows: 4fr 4fr 3fr;
+    grid-template-areas: 
+    "item-1 item-2 item-3 item-8 item-9"
+    "item-4 item-5 item-6 item-8 item-10"
+    "item-7 item-7 item-7 item-8 item-11";
+    grid-gap: 10px;
+}
+
+.item-1{
+    background-color: aqua;
+    grid-area: item-1;
+}
+
+.item-2 {
+    background-color: #9e4242;
+    grid-area: item-2;
+}
+
+.item-3 {
+    background-color: plum;
+    grid-area: item-3;
+}
+
+.item-4{
+    background-color: brown;
+    grid-area: item-4;
+}
+
+.item-5{
+    background-color: rgb(84, 84, 21);
+    grid-area: item-5;
+}
+
+.item-6{
+    background-color: darkcyan;
+    grid-area: item-6;
+}
+
+.item-7{
+    background-color: darkgoldenrod;
+    grid-area: item-7;
+}
+
+.item-8{
+    background-color: rgb(86, 86, 86);
+    grid-area: item-8;
+}
+
+.item-9{
+    background-color: darkolivegreen;
+    grid-area: item-9;
+}
+
+.item-10 {
+    background-color: orange;
+    grid-area: item-10;
+}
+
+.item-11 {
+    background-color: mistyrose;
+    grid-area: item-11;
+}
+
+
+
